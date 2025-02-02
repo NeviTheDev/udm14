@@ -1,5 +1,5 @@
 function UpdateFooter(){
-    const date = new Date
-    const year = date.getFullYear
+    const d = new Date();
+    let year = d.getFullYear();
     document.getElementById("footer").innerHTML = `© ${year} Nevorix, All Rights Reserved`
 }
