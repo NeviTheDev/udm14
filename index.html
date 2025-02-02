@@ -5,6 +5,7 @@
 
 <head>
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <script src="scripts/footer_update.js" defer></script>
     <script src="scripts/index.js" defer></script>
     <link rel="stylesheet" href="styles/main.css">
     <meta charset="UTF-8">
@@ -12,14 +13,14 @@
     <title>&udm=14 Google Search</title>
 </head>
 
-<body>
+<body onload="UpdateFooter()">
 
     <img src="udmlogo.png" alt="" width="500px" height="175px">
 
     <br>
 
     <input type="text" id="query" placeholder="🔍 Search something..."> <button id="search">Search</button>
-    <footer>© 2025 Nevorix, All Rights Reserved</footer>
+    <footer id="footer"></footer>
 
 </body>
 
